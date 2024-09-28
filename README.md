@@ -1,3 +1,5 @@
+## Integracion Wazuh + Jira
+
 1. Se debe crear el script "custom-jira" en la ruta "/var/ossec/integrations/" del servidor wazuh.
 
 2. Es necesario tener una cuenta de jira cloud creada y configurada con el tipo de issue que se quiere generar, en este caso se genero un issue del tipo incidente, luego es necesario obtener el Jira Key que se muestra en la URL, en este caso es POC, y por ultimo el tipo de issue que se obtiene desde tipos de incidencias.
